@@ -23,6 +23,8 @@ def collect():
     for tweet in tweets:
         print(tweet.text)
 
+#collect()
+
 def collect_by_user(user_id):
     connexion = twitter_setup()
     statuses = connexion.user_timeline(id = user_id, count = 200)
@@ -47,10 +49,10 @@ class StdOutListener(StreamListener):
 
 
 def collect_by_streaming():
-
     connexion = twitter_setup()
     listener = StdOutListener()
     stream=tweepy.Stream(auth = connexion.auth, listener=listener)
     stream.filter(track=['Emmanuel Macron'])
 
 collect_by_streaming()
+
