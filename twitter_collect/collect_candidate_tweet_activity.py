@@ -22,7 +22,7 @@ def twitter_setup():
 def collect_by_user(user_id):
     #On stocke les tweets de user_id dans une liste de couples (tweet_id, tweet_text)
     connexion = twitter_setup()
-    statuses = connexion.user_timeline(id = user_id, count = 200)
+    statuses = connexion.user_timeline(id = user_id, count = 1)
     Tweets=[]
     for status in statuses:
         Tweets.append((status.id,status.text))
