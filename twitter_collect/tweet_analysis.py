@@ -25,7 +25,7 @@ def twitter_setup():
 
 def collect_to_pandas_dataframe():
     connexion = twitter_setup()
-    tweets = connexion.search("@EmmanuelMacron",language="fr",count=50, rpp=100)
+    tweets = connexion.search("realDonaldTrump",language="fr",count=100, rpp=100)
     data = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweet_textual_content'])
     data['len']  = np.array([len(tweet.text) for tweet in tweets])
     data['ID']   = np.array([tweet.id for tweet in tweets])
@@ -35,7 +35,7 @@ def collect_to_pandas_dataframe():
     data['RTs']    = np.array([tweet.retweet_count for tweet in tweets])
     return data
 
-#collect_to_pandas_dataframe()
+#print(collect_to_pandas_dataframe())
 
 def RTs():
     rt_max  = np.max(data['RTs'])
@@ -75,11 +75,31 @@ Likes_vs_RTs(data)'''
 
 def extraire_vocabulaire():
     connexion = twitter_setup()
-    tweets = connexion.search("Emmanuel Macron",language="french",rpp=100)
+    tweets = connexion.search("Emmanuel Macron",language="french",count=20, rpp=100)
+    Tweet_conca=TextBlob('')
     for tweet in tweets:
         Tweet=TextBlob(tweet.text)
-        for word in Tweet.words:
-            if Tweet.words.count(word)==1:
-                print(word)
+        Tweet_conca=Tweet_conca+Tweet
+    for word in Tweet_conca.words:
+        if Tweet_conca.words.count(word)==1 and Word(word)==Word(word).lemmatize():
+            print(word)
 
-extraire_vocabulaire()
+#extraire_vocabulaire()
+
+def prise_en_compte_de_l_opinion(data):
+    pos_tweets=[]
+    neg_tweets=[]
+    neu_tweets=[]
+    for tweet in data['tweet_textual_content']:
+        if TextBlob(tweet).sentiment.polarity >0.05:
+            pos_tweets.append(tweet)
+        elif TextBlob(tweet).sentiment.polarity <-0.05:
+            neg_tweets.append(tweet)
+        else:
+            neu_tweets.append(tweet)
+    print("Percentage of positive tweets: {}%".format(len(pos_tweets)*100/len(data['tweet_textual_content'])))
+    print("Percentage of neutral tweets: {}%".format(len(neu_tweets)*100/len(data['tweet_textual_content'])))
+    print("Percentage de negative tweets: {}%".format(len(neg_tweets)*100/len(data['tweet_textual_content'])))
+
+'''data=collect_to_pandas_dataframe()
+prise_en_compte_de_l_opinion(data)'''
