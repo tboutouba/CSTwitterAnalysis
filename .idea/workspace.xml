@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ed55b8-22dc-402a-b743-52fca247c2cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/twitter_collect/prise_en_main_textblob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter_collect/tweet_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_collect/collect_candidate_tweet_activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/collect_candidate_tweet_activity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitter_collect/tweet_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/tweet_collection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,30 +22,31 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="306" />
-          <entry key="py" value="2725" />
+          <entry key="Python Console" value="365" />
+          <entry key="py" value="3724" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="3031" />
+          <entry key="Python" value="4089" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="270">
               <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -78,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter_collect/collect_candidate_tweet_activity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="420">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -89,11 +91,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_collection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="120">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1542359748401" expanded="true" signature="1328:1333" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1682" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1686" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1688" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1689" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1693" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1695" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1697" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1699" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1700" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1703" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1704" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1705" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1707" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1708" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1710" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1712" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1713" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1715" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1716" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1718" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1720" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1721" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="1680:1726" ph="..." />
+                <marker date="1542359748401" expanded="true" signature="2101:2472" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/prise_en_main_textblob.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -120,10 +171,12 @@
         <option value="$PROJECT_DIR$/twitter_collect/twitter_collection_setup.py" />
         <option value="$PROJECT_DIR$/twitter_collect/collect_candidate_tweet_activity.py" />
         <option value="$PROJECT_DIR$/twitter_collect/tweet_collection.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/tweet_analysis.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/prise_en_main_textblob.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
     <option name="y" value="29" />
     <option name="width" value="1400" />
@@ -135,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tweet_collection">
+  <component name="RunManager" selected="Python.prise_en_main_textblob">
     <configuration name="collect_candidate_tweet_activity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,10 +245,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prise_en_main_textblob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitterPredictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/prise_en_main_textblob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tweet_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitterPredictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/tweet_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tweet_collection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -204,27 +302,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/tweet_collection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="twitterPredictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="twitterPredictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterPredictor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -253,18 +330,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.twitterPredictor" />
       <item itemvalue="Python.twitter_collection_setup" />
       <item itemvalue="Python.collect_candidate_tweet_activity" />
       <item itemvalue="Python.tweet_collection" />
+      <item itemvalue="Python.tweet_analysis" />
+      <item itemvalue="Python.prise_en_main_textblob" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prise_en_main_textblob" />
+        <item itemvalue="Python.tweet_analysis" />
         <item itemvalue="Python.tweet_collection" />
         <item itemvalue="Python.tweet_collection" />
         <item itemvalue="Python.tweet_collection" />
-        <item itemvalue="Python.collect_candidate_tweet_activity" />
-        <item itemvalue="Python.twitter_collection_setup" />
       </list>
     </recent_temporary>
   </component>
@@ -272,20 +350,20 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="29" width="1400" height="760" extended-state="0" />
+    <frame x="0" y="29" width="1436" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24310954" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47826087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32902297" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="8" visible="true" weight="0.47270116" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.4714674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -309,9 +387,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/collect_candidate_tweet_activity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="420">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -321,20 +409,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection_setup.py">
+    <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_collection.py">
+    <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="313">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1542359748401" expanded="true" signature="1328:1333" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1682" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1686" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1688" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1689" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1693" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1695" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1697" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1699" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1700" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1703" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1704" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1705" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1707" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1708" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1710" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1712" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1713" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1715" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1716" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1718" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1720" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1721" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="1680:1726" ph="..." />
+            <marker date="1542359748401" expanded="true" signature="2101:2472" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/prise_en_main_textblob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
