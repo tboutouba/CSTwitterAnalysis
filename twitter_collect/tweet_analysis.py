@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import json
 import pandas as pd
+from textblob import TextBlob
+from textblob import Word
 # We import our access keys:
 import credentials
 
@@ -70,3 +72,14 @@ def Likes_vs_RTs(data):
 
 '''data=collect_to_pandas_dataframe()
 Likes_vs_RTs(data)'''
+
+def extraire_vocabulaire():
+    connexion = twitter_setup()
+    tweets = connexion.search("Emmanuel Macron",language="french",rpp=100)
+    for tweet in tweets:
+        Tweet=TextBlob(tweet.text)
+        for word in Tweet.words:
+            if Tweet.words.count(word)==1:
+                print(word)
+
+extraire_vocabulaire()
